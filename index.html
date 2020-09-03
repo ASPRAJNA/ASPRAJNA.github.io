@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Calistoga' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Caladea' rel='stylesheet'>
+
+<style>
+body {
+  background-image: url("https://image.freepik.com/free-photo/blue-smoke-abstract-white-background-ink-water-white_55716-1229.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-attachment: fixed;
+}
+
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .cont{
+        box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top:0px;
+}
+}
+#div1{
+   width:100%;
+    background-image:linear-gradient( blue 10%, rgba(255, 255, 255, 0.945) 70%);
+    
+}
+ img{
+     opacity: 1.0;
+ }
+.cont{
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin:5%;
+}
+ td {
+  padding-left: 15px;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 3px;
+  border-radius: 50%;
+   background: blue;
+  color: white;
+}
+
+.fa:hover {
+   background: white;
+  color: blue;
+  opacity: 1;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+    <div class="cont">
+  <div id="div1" >
+   <center> <img src="https://cdn3.iconfinder.com/data/icons/yumminky-pc/100/yumminky-pc-43-512.png" class="rounded-circle" width="35%" height="35%" style="margin-top:70px;opacity: 1.0;"></center>
+</div>
+<div id="div2" style="background-color: rgba(255, 255, 255, 0.895);"><br>
+<center><h2 style=" font-family: 'Bree Serif';font-weight:bold;color:black">A S PARJANA</h2></center>
+<center><h6 style="font-family: 'Abhaya Libre';color:gray">K.L.S. Gogte Institute of Technology</h6><br></center>
+<center><h4 style="font-family: 'Calistoga';font-size: 26px;">Skills</h4>
+    <table style="font-family: 'Caladea';font-size:20px;">
+        <tr>
+          <td>HTML</td>
+          <td>CSS</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>C++</td>
+        </tr>
+        <tr>
+            <td>Java Script</td>
+            <td>Photoshop</td>
+          </tr>
+          <tr>
+            <td>Prototyping</td>
+            <td>SVJ</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Java</td>
+          </tr>
+      </table></center>
+</div>  
+<div id="div3" style="background-color: rgba(255, 255, 255, 0.904);"><br><br>
+    <center><i href="#" class="fa fa-facebook"></i>
+    <i href="#" class="fa fa-twitter"></i>
+    <i href="#" class="fa fa-youtube"></i>
+    <a href="https://www.instagram.com/asprajna/"  target="_blank" class="fa fa-instagram"></a>
+    <a href="https://github.com/ASPRAJNA"  target="_blank" class="fa fa-github" style="font-size:30px;"></a></center>
+    <br>
+</div> 
+<div style="background-color: rgba(255, 255, 255,1.0);">
+  <center>  <i class="fa fa-thumbs-o-down" id="t1" onclick="t11()"  style="font-size:56px;color: black;background-color: rgba(255, 255, 255, 0);float: left;"></i>
+    <i class="fa fa-thumbs-o-up" id="t2" onclick="t12()" style="margin-right:20px;font-size:56px;color: black;background-color: rgba(255, 255, 255, 0);float: right;"></i>
+     <i class="material-icons" style="font-size:56px;float:center;">feedback</i></center>
+     <br>
+    </div>  
+<div style="background-color: rgba(0, 0, 255, 0.973);">
+    <center><h2 style="color: white;padding:10px;">CONTACT</h2></center>
+</div>  
+ 
+
+</div>
+<script>
+  function t11(){
+    document.getElementById("t1").style.color="red";
+    document.getElementById("t2").style.color="black";
+  }
+  function t12(){
+    document.getElementById("t2").style.color="green";
+    document.getElementById("t1").style.color="black";
+  }
+</script>
+</body>
+</html>
