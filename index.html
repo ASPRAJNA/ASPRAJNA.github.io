@@ -1,137 +1,252 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
+  <title>A S PRAJNA</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Calistoga' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Caladea' rel='stylesheet'>
-
-<style>
-body {
-  background-image: url("https://image.freepik.com/free-photo/blue-smoke-abstract-white-background-ink-water-white_55716-1229.jpg");
-  background-repeat: no-repeat;
-  background-size:100% 100%;
-  background-attachment: fixed;
-}
-
-
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 600px) {
-    .cont{
-        box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  margin-top:0px;
-}
-}
-#div1{
-   width:100%;
-    background-image:linear-gradient( blue 10%, rgba(255, 255, 255, 0.945) 70%);
-    
-}
- img{
-     opacity: 1.0;
- }
-.cont{
-    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  margin:5%;
-}
- td {
-  padding-left: 15px;
-}
-.fa {
-  padding: 15px;
-  font-size: 25px;
-  width: 55px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 3px;
-  border-radius: 50%;
-   background: blue;
-  color: white;
-}
-
-.fa:hover {
-   background: white;
-  color: blue;
-  opacity: 1;
-  cursor: pointer;
-}
-</style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
-<body>
-    <div class="cont">
-  <div id="div1" >
-   <center> <img src="https://cdn3.iconfinder.com/data/icons/yumminky-pc/100/yumminky-pc-43-512.png" class="rounded-circle" width="35%" height="35%" style="margin-top:70px;opacity: 1.0;"></center>
-</div>
-<div id="div2" style="background-color: rgba(255, 255, 255, 0.895);"><br>
-<center><h2 style=" font-family: 'Bree Serif';font-weight:bold;color:black">A S PARJNA</h2></center>
-<center><h6 style="font-family: 'Abhaya Libre';color:gray">K.L.S. Gogte Institute of Technology</h6><br></center>
-<center><h4 style="font-family: 'Calistoga';font-size: 26px;">Skills</h4>
-    <table style="font-family: 'Caladea';font-size:20px;">
-        <tr>
-          <td>HTML</td>
-          <td>CSS</td>
-        </tr>
-        <tr>
-          <td>C</td>
-          <td>C++</td>
-        </tr>
-        <tr>
-            <td>Java Script</td>
-            <td>Photoshop</td>
-          </tr>
-          <tr>
-            <td>Prototyping</td>
-            <td>SVG</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>Java</td>
-          </tr>
-      </table></center>
-</div>  
-<div id="div3" style="background-color: rgba(255, 255, 255, 0.904);"><br><br>
-    <center><i href="#" class="fa fa-facebook"></i>
-    <i href="#" class="fa fa-twitter"></i>
-    <i href="#" class="fa fa-youtube"></i>
-    <a href="https://www.instagram.com/asprajna/"  target="_blank" class="fa fa-instagram"></a>
-    <a href="https://github.com/ASPRAJNA"  target="_blank" class="fa fa-github" style="font-size:30px;"></a></center>
-    <br>
-</div> 
-<div style="background-color: rgba(255, 255, 255,1.0);">
-  <center>  <i class="fa fa-thumbs-o-down" id="t1" onclick="t11()"  style="font-size:56px;color: black;background-color: rgba(255, 255, 255, 0);float: left;"></i>
-    <i class="fa fa-thumbs-o-up" id="t2" onclick="t12()" style="margin-right:20px;font-size:56px;color: black;background-color: rgba(255, 255, 255, 0);float: right;"></i>
-     <i class="material-icons" style="font-size:56px;float:center;">feedback</i></center>
-     <br>
-    </div>  
-<div style="background-color: rgba(0, 0, 255, 0.973);">
-    <center><h2 style="color: white;padding:10px;">CONTACT</h2></center>
-</div>  
- 
+<script src="script.js"></script>
 
-</div>
-<script>
-  function t11(){
-    document.getElementById("t1").style.color="red";
-    document.getElementById("t2").style.color="black";
-  }
-  function t12(){
-    document.getElementById("t2").style.color="green";
-    document.getElementById("t1").style.color="black";
-  }
-</script>
+<body id="dev">
+
+  <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top" id="scroller"
+    style=" background-color: #ffffff1c; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding:15px;">
+    <a class="navbar-brand" href="#" style="font-size:30px;"><b>Portfolio</b></a>
+    <h4 class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span style="font-weight:bold;color:white;font-size:30px;" id="iconc" onclick="changeic()">&#9776;</span>
+    </h4>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mr-auto ac" style="color: white;">
+        <li class="nav-item" style="text-decoration: none; ">
+          <b> <a class="nav-link" href="#dev" style="color: white;">Home</a></b>
+        </li>
+        <li class="nav-item" style="text-decoration: none;">
+          <b> <a class="nav-link" href="#aboutme" style="color: white;">About</a></b>
+        </li>
+        <li class="nav-item" style="text-decoration: none;">
+          <b> <a class="nav-link" href="#edu" style="color: white;">Education</a></b>
+        </li>
+        <li class="nav-item" style="text-decoration: none;">
+          <b> <a class="nav-link" href="#skills" style="color: white;">Skills</a></b>
+        </li>
+        <li class="nav-item" style="text-decoration: none;">
+          <b> <a class="nav-link" href="#pros" style="color: white;">Projects</a></b>
+        </li>
+        <li class="nav-item" style="text-decoration: none;">
+          <b> <a class="nav-link" href="#certifi" style="color: white;">Certifications</a></b>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 hideen" style="color: white;">
+        <a href="mailto:bob@ilearnhtml.com" style="margin-right:10px;"><i class="fa fa-envelope-square"
+            style="font-size:22px;color:white;"></i> </a>
+        <a href="https://www.linkedin.com/in/asprajna/" style="margin-right:10px;"><i class="fa fa-linkedin-square"
+            style="font-size:22px;color:white;"></i></a>
+        <a href="https://github.com/ASPRAJNA" style="margin-right:10px;"><i class="fa fa-github-square"
+            style="font-size:22px;color:white"></i></a>
+        <a href="https://www.instagram.com/asprajna/" style="margin-right:10px;"><i class="fa fa-instagram"
+            style="font-size:22px;color:white"></i></a>
+      </form>
+    </div>
+  </nav>
+  <br><br><br>
+  <div id="back_relay">
+
+    <div class="container" id="aboutme"><br><br><br><br>
+      <div class="container"
+        style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);padding:30px;">
+        <div class="container">
+          <div class="row container">
+            <div class="col-lg-7" style="font-weight: bolder;">
+              <h2>About me</h2>
+              <h5>I am A S Prajna, currently persuing my Engineering in Computer Science Engineering at K L S GOGTE
+                INSTITUTE OF TECHNOLOGY, Belagum, Karnataka.
+                I want to be a part of organization where I can devote my excellent tech skills, analytical skills and
+                problem-solving skills to the growth of the organisation.
+              </h5>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2">
+              <center>
+                <img src="prajna.png" style="height: 200px;width: 250px;">
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    <hr>
+    <div class="container-fluid" id="edu"><br>
+      <br><br>
+      <h2 style="text-align: center;">Education</h2>
+      <br>
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3 m-3" id="note">
+          <h3>Bachelor of Engineering</h3>
+          <center><img src="git.png" width="100" height="100"></center>
+          <br>
+          <p style="text-align: center;font-size:20px"><b>KLS Gogte institute of Technology</b></p>
+          <b>YOP:</b>
+          <p>2022</p>
+          <b>Score:</b>
+          <p>9.4(till 6 th sem)</p>
+        </div>
+        <div class="col-sm-3 m-3" id="note">
+          <h3>Senior Secondary Education</h3>
+          <center><img src="Shardha.png" width="100" height="100"></center>
+          <br>
+          <p style="text-align: center;font-size:20px"><b> Sharada Pre-University College - Kodialbail, Mangalore</b>
+          </p>
+          <b>YOP:</b>
+          <p>2018</p>
+          <b>Score: <b style="float: right;"> KCET Rank</b></b>
+          <p>93.83
+            <spam style="float: right;"> 8838</spam>
+          </p>
+        </div>
+        <div class="col-sm-3 m-3" id="note">
+          <h3>Secondary Education</h3>
+          <center><img src="cvsk.png" width="100" height="100"></center>
+          <br>
+
+          <p style="text-align: center;font-size:20px"><b>Colaba Vithob Shanbhag Kalbagkar High School - Kumta</b></p>
+          <b>YOP:</b>
+          <p>2016</p>
+          <b>Score:</b>
+          <p>95.52</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid" id="skills"><br>
+      <hr><br><br><br>
+      <h2 style="text-align: center;">Skills</h2><br>
+      <center>
+        <li class="decli">C</li>
+        <li class="decli">C++</li>
+        <li class="decli">Java</li>
+        <li class="decli">Python</li>
+        <li class="decli">HTML</li>
+        <li class="decli">CSS</li>
+        <li class="decli">Java Script</li>
+        <li class="decli">Jquery</li>
+        <li class="decli">Angular JS</li>
+        <li class="decli">Django</li>
+        <li class="decli">Flask</li>
+        <li class="decli">Bootsrtrap</li>
+        <li class="decli">Word Press</li>
+        <li class="decli">PHP</li>
+        <li class="decli">SQL</li>
+        <li class="decli">Adobe XD</li>
+        <li class="decli">Github</li>
+        <li class="decli">Android Studio</li>
+        <li class="decli">MS Office</li>
+        <li class="decli">Adobe Ps</li>
+      </center>
+    </div>
+    <div id="pros">
+      <br><br><br>
+      <div class="container-fluid" style="background-color: black;">
+        <br><br>
+        <h2 style="text-align: center;color:white;;">Projects</h2>
+        <center>
+          <li class="proli"><br>
+            <h3 style="font-size:18px ;font-weight:bolder;">TIC-TAC-TOE</h3>
+            <h4 style="font-weight:normal;font-size:15px">
+              A Simple tic-tac-toe game that can be played between two players. It will announce the winner after once
+              the game is finished. It is implemented
+              using HTML, CSS and JAVA SSCRIPT and BOOTSTRAP.
+            </h4>
+            <a href="https://asprajna.github.io/TIC-TAC-TOE/">Visit Page</a>
+          </li>
+          <li class="proli"><br>
+            <h3 style="font-size:18px ;font-weight:bolder;">PLACEMENT CELL</h3>
+            <h4 style="font-weight:normal;font-size:15px">
+              A website useful for Engineering Student to check the probability
+              of getting placed or not. The website is build using HTML &
+              BOOTSTRAP for front-end and the back-end is build my Machine Learning
+              Logistic Regression algorithm.
+            </h4>
+            <a href="https://placementml.herokuapp.com/">Visit Page</a>
+          </li>
+          <li class="proli"><br>
+            <h3 style="font-size:18px ;font-weight:bolder;">CLOCK ANGLE CALCI</h3>
+            <h4 style="font-weight:normal;font-size:15px">
+              This website can be used to calculate the angle between hour and minute hand of the clock. User has to
+              give hour and min as input.Website will give the angle formed between them. Flask and HTML,CSS is used
+            </h4>
+            <a href="https://clockanglecalculator.herokuapp.com/">Visit Page</a>
+          </li>
+          <li class="proli"><br>
+            <h3 style="font-size:18px ;font-weight:bolder;">DAY PREDICTOR</h3>
+            <h4 style="font-weight:normal;font-size:15px">
+              This website can be used to find the day of the particular date, month and the year.User has to give date,
+              month and year as input (valid inputs).Website will predict the day for the given input. Django and
+              HTML,CSS,Bootstrap,JS is used.
+            </h4>
+            <a href="https://daypredict.herokuapp.com/">Visit Page</a>
+          </li>
+        </center>
+        <br><br>
+      </div>
+    </div>
+    <div class="container-fluid" id="certifi">
+      <br>
+      <br><br><br>
+      <h2 style="text-align: center;">Certifications</h2>
+      <br>
+      <h4>1 Internship</h3>
+        <li class="cerlist"><img src="c1.jpg" height="250px" width="280px">
+          <button type="button" class="btns">View </button></li>
+        <h4>2 Courses</h3>
+          <li class="cerlist"><img src="co1.png" height="250px" width="280px">
+          <br><button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="co2.png" height="250px" width="280px">
+          <br><button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="co3.png" height="250px" width="280px">
+          <br><button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="co4.png" height="250px" width="280px">
+          <button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="co5.png" height="250px" width="280px">
+          <br><button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="co6.png" height="250px" width="280px" >
+          <br><button type="button" class="btns">View </button></li>
+          <h4>3 Webinar/Workshop</h3>
+            <li class="cerlist"><img src="w1.jpeg" height="250px" width="280px">
+           <br>   <button type="button" class="btns">View </button></li>
+            <li class="cerlist"><img src="w1.png" height="250px" width="280px">
+            <br>  <button type="button" class="btns">View </button></li>
+            <h4>4 Co-Curricular activities</h3>
+              <li class="cerlist"><img src="c1.png" height="250px" width="280px">
+                <button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="c2.png" height="250px" width="280px">
+            <button type="button" class="btns">View </button></li>
+          <li class="cerlist"><img src="c1.png" height="250px" width="280px">
+            <button type="button" class="btns">View </button></li>
+    </div>
+  </div>
+
+  <script>
+    var x = 0;
+    function changeic() {
+      if (x == 0) {
+        document.getElementById("iconc").innerHTML = "&#9747;";
+        x = 1;
+      }
+      else {
+        document.getElementById("iconc").innerHTML = "&#9776;";
+        x = 0;
+      }
+    }
+  </script>
 </body>
+
 </html>
